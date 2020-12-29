@@ -733,7 +733,7 @@
     <string name="EventLogFilterChannelInfo">Channel info</string>
     <string name="EventLogFilterDeletedMessages">Deleted messages</string>
     <string name="EventLogFilterEditedMessages">Edited messages</string>
-    <string name="EventLogFilterPinnedMessages">Pinned messages</string>
+    <string name="EventLogFilterPinnedMessages">Pinned messages 置顶消息</string>
     <string name="EventLogFilterLeavingMembers">Leaving members</string>
     <string name="EventLogFilterCalls">Voice chats</string>
     <string name="EventLogToggledSlowmodeOn">un1 set the slow mode timer to %1$s</string>
@@ -1352,7 +1352,7 @@
     <string name="CreateNewContact">Create New Contact</string>
     <string name="NewContact">New Contact</string>
     <string name="AddToExistingContact">Add to Existing Contact</string>
-    <string name="UserBio">Bio</string>
+    <string name="UserBio">Bio 个人简介</string>
     <string name="UserBioDetail">Add a few words about yourself</string>
     <string name="UserBioEmpty">None</string>
     <string name="UserBioInfo">You can add a few lines about yourself. Anyone who opens your profile will see this text.</string>
@@ -1749,7 +1749,7 @@
     <string name="OnlyWhenScreenOn">Only when screen \"on\"</string>
     <string name="OnlyWhenScreenOff">Only when screen \"off\"</string>
     <string name="AlwaysShowPopup">Always show popup</string>
-    <string name="BadgeNumber">Badge Counter</string>
+    <string name="BadgeNumber">Badge Counter 未读消息数量提示</string>
     <string name="BadgeNumberShow">Enabled</string>
     <string name="BadgeNumberMutedChats">Include Muted Chats</string>
     <string name="BadgeNumberUnread">Count Unread Messages</string>
