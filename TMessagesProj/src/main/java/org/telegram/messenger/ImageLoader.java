@@ -1822,7 +1822,7 @@ public class ImageLoader {
                         }
                     }
                 }
-                telegramPath = new File(path, "Telegram");
+                telegramPath = new File(path, "Android/AppData/Telegram");
                 telegramPath.mkdirs();
                 if (Build.VERSION.SDK_INT >= 19 && !telegramPath.isDirectory()) {
                     ArrayList<File> dirs = AndroidUtilities.getDataDirs();
@@ -1831,7 +1831,7 @@ public class ImageLoader {
                             File dir = dirs.get(a);
                             if (dir.getAbsolutePath().startsWith(SharedConfig.storageCacheDir)) {
                                 path = dir;
-                                telegramPath = new File(path, "Telegram");
+                                telegramPath = new File(path, "Android/AppData/Telegram");
                                 telegramPath.mkdirs();
                                 break;
                             }

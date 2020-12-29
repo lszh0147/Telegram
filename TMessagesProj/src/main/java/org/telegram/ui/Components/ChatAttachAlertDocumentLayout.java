@@ -969,7 +969,7 @@ public class ChatAttachAlertDocumentLayout extends ChatAttachAlert.AttachAlertLa
 
         ListItem fs;
         try {
-            File telegramPath = new File(Environment.getExternalStorageDirectory(), "Telegram");
+            File telegramPath = new File(Environment.getExternalStorageDirectory(), "Android/AppData/Telegram");
             if (telegramPath.exists()) {
                 fs = new ListItem();
                 fs.title = "Telegram";
